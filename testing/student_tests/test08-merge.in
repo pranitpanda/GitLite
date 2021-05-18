@@ -1,0 +1,29 @@
+> init
+<<<
++ a.txt notwug.txt
+> add a.txt
+<<<
+> commit "common"
+<<<
+> branch other
+<<<
++ a.txt master4.txt
+> add a.txt
+<<<
+> commit "master"
+<<<
+> checkout other
+<<<
++ a.txt other4.txt
+> add a.txt
+<<<
+> commit "other"
+<<<
+> checkout master
+<<<
+> merge other
+Encountered a merge conflict.
+<<<
+> merge other
+Given branch is an ancestor of the current branch.
+<<<

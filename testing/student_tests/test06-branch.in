@@ -1,0 +1,22 @@
+I definitions.inc
+I commit_setup.inc
+> branch other
+<<<
++ a.txt master4.txt
+> add a.txt
+<<<
+> commit "master 4"
+<<<
+> checkout other
+<<<
++ a.txt other4.txt
+> add a.txt
+<<<
+> commit "other 4"
+<<<
+> checkout master
+<<<
+= a.txt master4.txt
+> checkout other
+<<<
+= a.txt other4.txt

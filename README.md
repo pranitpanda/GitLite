@@ -10,6 +10,7 @@ Using the same syntax you can now run any of the following commands
 - java gitlet.Main global-log
 - java gitlet.Main find [commit message]
 - java gitlet.Main status
+- java gitlet.Main checkout
   - java gitlet.Main checkout -- [file name]
   - java gitlet.Main checkout [commit id] -- [file name]
   - java gitlet.Main checkout [branch name]
@@ -17,4 +18,3 @@ Using the same syntax you can now run any of the following commands
 - java gitlet.Main rm-branch [branch name]
 - java gitlet.Main reset [commit id]
 - java gitlet.Main merge [branch name]
-- 
